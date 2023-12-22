@@ -1,1 +1,1 @@
-# techPro-frontend-workshop
+# TechPro-frontend-workshop
