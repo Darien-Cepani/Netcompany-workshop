@@ -28,7 +28,7 @@
 
 ## 🧐 About <a name = "about" id="about"></a>
 
-This repository consists of the following projects which by order also corresponds to the flow of the workshop: 
+This repository consists of the following projects which by order also corresponds to the workshop flow: 
 - non-bundled-site. A simple site using a main Javascript file and an imported module file.
 - bundled-site. A simple site using also a Javascript file and an imported module file but also [Webpack](https://webpack.js.org/) is used.
 - angular-form. An Angular project with a [Reactive Form](https://angular.io/guide/reactive-forms) with input validation using ReactiveFormsModule module.
@@ -40,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need to install nodeJS >= v14.21.3 and npm >= v6.14.18. You should check it via
+You will need to install nodeJS >= v14.21.3 and npm >= v6.14.18. You should check it via:
 ```
 node -v
 npm -v
