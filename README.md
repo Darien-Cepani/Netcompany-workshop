@@ -52,26 +52,25 @@ In order to install nodeJS please refer to [NodeJS page](https://nodejs.org/en).
 To install and run the projects you should follow the following steps:
 - non-bundled-site. 
 ```
+cd non-bundled-site
 npx serve
 ```
 - bundled-site
 ```
-npm i && npx serve
+cd bundled-site
+npm i && npm run build && npx serve
 ```
-- angular-form
+- angular-form and react-form
+```
+cd angular-form
+```
+or
+```
+cd react-form
+```
 ```
 npm i && npm run start
 ```
-
-- react-form
-```
-npm i && npm run start
-```
-For both non-bundled-site and bundled-site you should also run the command:
-```
-npm run build
-```
-
 <!-- Explain how to run the automated tests for this system.
 
 ### Break down into end to end tests
