@@ -1,4 +1,4 @@
-<h3 align="center">TechPro Frontend Workshop</h3>
+<h3 align="center">Frontend Workshop</h3>
 
 <div align="center">
 
