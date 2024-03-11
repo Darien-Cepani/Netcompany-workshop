@@ -62,11 +62,11 @@ npm i && npm run build && npx serve
 ```
 - angular-form and react-form
 ```
-cd angular-form
+cd angular-form/starter
 ```
 or
 ```
-cd react-form
+cd react-form/starter
 ```
 ```
 npm i && npm run start
