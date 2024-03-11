@@ -8,12 +8,11 @@ function App() {
   });
 
   const handleInput = (e) => {
-    const {name, value } = e.target
-    console.log(name, value)
+    const {name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value
-    })
+    });
   }
 
   const submit = (e) => {
