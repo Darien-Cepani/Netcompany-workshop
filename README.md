@@ -40,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need to install nodeJS >= v14.21.3 and npm >= v6.14.18. You should check it via:
+You will need to install nodeJS >= v18.17.1 and npm >= v9.6.7. You should check it via:
 ```
 node -v
 npm -v
@@ -58,7 +58,9 @@ npx serve
 - bundled-site
 ```
 cd bundled-site
-npm i && npm run build && npx serve
+npm i
+npm run build
+npx serve
 ```
 - angular-form and react-form
 ```
@@ -69,7 +71,8 @@ or
 cd react-form/starter
 ```
 ```
-npm i && npm run start
+npm i
+npm run start
 ```
 <!-- Explain how to run the automated tests for this system.
 
