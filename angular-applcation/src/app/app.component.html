@@ -1,0 +1,8 @@
+<div class="form-container">
+  <form [formGroup]="myForm" (ngSubmit)="submit()">
+    <input placeholder="Name" formControlName="name"/>
+    <input placeholder="Email" formControlName="email"/>
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+  </form>
+</div>
