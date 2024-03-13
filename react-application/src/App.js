@@ -22,12 +22,16 @@ function App() {
     console.log(myForm);
   };
 
+  const reset = () => {
+    setMyForm({name: '', email: ''});
+  };
+
   return (
-    <form onClick={submit}>
+    <form>
     <input onChange={handleInputChange} name="name" placeholder="Name" />
     <input onChange={handleInputChange} name="email" placeholder="Email" />
-    <button type="submit">Submit</button>
-    <button type="reset">Cancel</button>
+    <button onClick={submit} type="submit">Submit</button>
+    <button onClick={reset} type="reset">Cancel</button>
   </form>
   );
 }
